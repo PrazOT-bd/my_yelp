@@ -1,0 +1,110 @@
+/* Header */
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  padding: 1rem;
+  background-color: #ff6347;
+}
+
+.yelp-logo {
+  height: 50px;
+}
+
+.app-title {
+  font-weight: bold;
+  color: #fcf9f9;
+}
+
+
+/* Form Section */
+.add-restaurant-section {
+  margin: 2rem 0;
+  border-radius: 8px;
+  justify-content: center;
+  width: 100%;
+  padding-left: 90px;
+}
+
+.input-field {
+  display: block;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 800px;
+  border: 1px solid #f39c9c;
+  border-radius: 4px;
+}
+
+.create-button {
+  margin-top: 1rem;
+  background-color: #ff6347;
+  color: rgb(250, 248, 248);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+}
+
+.create-button:hover {
+  background-color: #ff4500;
+}
+
+/* List Section */
+.restaurant-list-section {
+  margin: 2rem 0;
+  padding: 90px;
+}
+
+.restaurant-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: #fdf3f3;
+}
+
+.restaurant-table th {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border: 1px;
+  background-color: #ff6347;
+}
+
+.restaurant-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border: 1px;
+}
+
+.delete-button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.delete-button:hover {
+  background-color: #ff4500;
+}
+
+/* Footer */
+.app-footer {
+  display: flex;
+  justify-content: left;
+  padding: 1rem;
+  background-color: #ff6347;
+}
+
+.signout-button {
+  background-color: #302e2e;
+  color: rgb(248, 237, 237);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+}
+
+.signout-button:hover {
+  background-color: #ff4500;
+}
